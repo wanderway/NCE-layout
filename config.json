@@ -14,7 +14,8 @@
   "template_engine" : "html",
 
   "javascript_libraries" : [
-    "./node_modules/jquery/dist/jquery.min.js"
+    "./node_modules/jquery/dist/jquery.min.js",
+    "./node_modules/slick-carousel/slick/slick.min.js"
   ],
 
   "use_babel" : true,

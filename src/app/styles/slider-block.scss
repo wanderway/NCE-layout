@@ -11,7 +11,7 @@
     max-width: 1180px;
     padding: 10px 15px;
     align-items: center;
-    margin: 0 auto 30px ;
+    margin: 0 auto 30px;
 
     background: #A6D7FF;
   }
@@ -26,7 +26,6 @@
 
     border-radius: 4px;
     border: 1px solid #999999;
-
 
     &::placeholder {
       color: #3753A4;
@@ -44,7 +43,7 @@
     margin: 0 auto;
     padding: 150px 0 0 0;
 
-    background: rgba(255,255,255,.9);
+    background: rgba(255, 255, 255, .9);
 
     &:after {
       position: absolute;
@@ -55,21 +54,35 @@
       line-height: 50px;
       padding: 0 0 0 30px;
 
-
       font-size: 22px;
 
       background: #52C5FF;
 
       content: "What is you medical problem?";
     }
+
+    &:before {
+      position: absolute;
+      left: -10px;
+      top: 540px;
+
+      min-width: 450px;
+      line-height: 50px;
+      padding: 0 0 0 30px;
+
+      font-size: 22px;
+
+      background: #52C5FF;
+
+      content: "Choose your doctor";
+    }
   }
 
   &__med-slider-items {
     position: relative;
 
-    width: 100%;
     padding: 20px 130px;
-    margin: 0 auto;
+    margin: 0 auto 180px;
     font-size: 12px;
 
     background: #F9A858;
@@ -82,8 +95,7 @@
       width: 120px;
       height: 290px;
 
-      background: rgba(255,255,255,.9);
-
+      background: rgba(255, 255, 255, .9);
 
       content: "";
     }
@@ -127,10 +139,8 @@
     width: 144px;
   }
 
-  .slick-slide {
+  &__med-slider-items .slick-slide {
     margin: 0 10px;
-
-    //opacity: .9;
   }
 
   .slick-arrow {
@@ -149,25 +159,7 @@
     z-index: 20;
   }
 
-  .slick-prev {
-    left: 5%;
-
-    &:after {
-      position: absolute;
-      right: 20px;
-      top: 15px;
-
-      border-top: 10px solid #A6D7FF;
-      border-right: 15px solid #3753A4;
-      border-bottom: 10px solid #A6D7FF;
-
-      content: "";
-    }
-
-  }
-
   .slick-next {
-    right: 5%;
 
     &:after {
       position: absolute;
@@ -182,4 +174,123 @@
     }
   }
 
+  .slick-prev {
+
+    &:after {
+      position: absolute;
+      right: 20px;
+      top: 15px;
+
+      border-top: 10px solid #A6D7FF;
+      border-right: 15px solid #3753A4;
+      border-bottom: 10px solid #A6D7FF;
+
+      content: "";
+    }
+  }
+
+  &__med-slider-items .slick-prev {
+
+    left: 5%;
+  }
+
+  &__med-slider-items .slick-next {
+
+    right: 5%;
+  }
+
+  &__doc-slider-items {
+    position: relative;
+
+    padding: 0 80px;
+    margin: 180px 0 0 0;
+
+    font-size: 13px;
+    text-transform: uppercase;
+
+    background: #ffffff;
+
+    overflow: hidden;
+
+    &:before,
+    &:after {
+      position: absolute;
+      top: 0;
+      width: 100px;
+      height: 100%;
+
+      background: #ffffff;
+
+      content: "";
+    }
+
+    &:before {
+      left: 0;
+      z-index: 10;
+    }
+
+    &:after {
+      right: 0;
+    }
+  }
+
+  &__doc-slider-item {
+    position: relative;
+
+    display: inline-block;
+    padding: 75px 0 0 0;
+    margin: 0 5px;
+
+  }
+
+  &__doc-slider-items .slick-current {
+    background: #F9A858;
+    padding: 45px 0 40px 0;
+    margin: 0 5px;
+  }
+
+  .slick-current .slider-block__doc-slider-image {
+    height: 215px;
+  }
+
+  .slick-current .slider-block__doc-slider-name {
+    margin: 20px 0 0 0;
+
+    background: #F9A858;
+    color: #000000;
+  }
+
+  &__doc-slider-image {
+    height: 160px;
+  }
+
+  &__doc-slider-name {
+    height: 50px;
+    padding: 10px 10px 0 10px;
+
+    text-align: center;
+
+    background: #A6D7FF;
+    color: #ffffff;
+  }
+
+  &__doc-slider-items .slick-next {
+
+    right: 3%;
+  }
+
+  &__doc-slider-items .slick-prev {
+
+    left: 3%;
+  }
+
+  &__doc-link {
+    position: absolute;
+    bottom: 5px;
+    right: 110px;
+
+    font-size: 12px;
+
+    color: #52C5FF;
+  }
 }

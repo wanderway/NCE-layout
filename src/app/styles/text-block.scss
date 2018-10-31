@@ -1,0 +1,25 @@
+.text-block {
+  background: #E5E5E5;
+  padding: 75px 0;
+
+  &__wrapper {
+    padding: 0 90px 0 45px;
+  }
+
+  &__title {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 20px;
+
+    span {
+      display: block;
+      margin: 0 0 30px 0;
+    }
+  }
+}

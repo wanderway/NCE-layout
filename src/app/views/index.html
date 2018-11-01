@@ -8,162 +8,167 @@
     <title>Herzliya Medical Center</title>
   </head>
   <body>
-    <div class="slogan">
-      <div class="slogan__text  upper-container">LOREM IPSUM DOLOR SIT AMET</div>
-    </div>
-    <header class="header">
-      <div class="header__wrapper  upper-container">
-        <picture class="header__logo">
-          <img src="../images/main-logo.svg" width="90" height="50" alt="Барбершоп «Бородинский»">
-        </picture>
-        <ul class="header__languages  navigation-block__languages--closed">
-          <li class="header__language  navigation-block__language--eng  navigation-block__language--active">English</li>
-          <li class="header__language  navigation-block__language--rus">Russian</li>
-        </ul>
-        <ul class="header__navigation-items">
-          <li class="header__navigation-item  navigation-block__navigation-item--active">home</li>
-          <li class="header__navigation-item"><a href="#">about us</a></li>
-          <li class="header__navigation-item"><a href="#">articles</a></li>
-          <li class="header__navigation-item"><a href="#">staff</a></li>
-          <li class="header__navigation-item"><a href="#">media</a></li>
-          <li class="header__navigation-item"><a href="#">faq</a></li>
-          <li class="header__navigation-item"><a href="#">contacts</a></li>
-        </ul>
+    <header>
+      <h1 class="visually-hidden">Herzliya Medical Center</h1>
+      <div class="slogan">
+        <div class="slogan__text  upper-container">LOREM IPSUM DOLOR SIT AMET</div>
+      </div>
+      <div class="navigation-block">
+        <div class="navigation-block__wrapper  upper-container">
+          <picture class="navigation-block__logo">
+            <a href="#"><img src="../images/main-logo.svg" width="90" height="50" alt="Барбершоп «Бородинский»"></a>
+          </picture>
+          <ul class="navigation-block__languages  navigation-block__languages--closed">
+            <li class="navigation-block__language  navigation-block__language--eng  navigation-block__language--active">English</li>
+            <li class="navigation-block__language  navigation-block__language--rus">Russian</li>
+          </ul>
+          <ul class="navigation-block__navigation-items">
+            <li class="navigation-block__navigation-item  navigation-block__navigation-item--active">home</li>
+            <li class="navigation-block__navigation-item"><a href="#">about us</a></li>
+            <li class="navigation-block__navigation-item"><a href="#">articles</a></li>
+            <li class="navigation-block__navigation-item"><a href="#">staff</a></li>
+            <li class="navigation-block__navigation-item"><a href="#">media</a></li>
+            <li class="navigation-block__navigation-item"><a href="#">faq</a></li>
+            <li class="navigation-block__navigation-item"><a href="#">contacts</a></li>
+          </ul>
+        </div>
       </div>
     </header>
-    <div class="slider-block">
-      <div class="slider-block__wrapper">
-        <form class="slider-block__search">
-          <input class="slider-block__input" type="text" name="search" placeholder="What are you searching for?">
-          <button class="slider-block__button  btn" type="submit">Search</button>
-        </form>
-      </div>
-      <div class="slider-block__sliders  container">
-         <div class="slider-block__med-slider-items">
-           <div class="slider-block__med-slider-item">
-             <div class="slider-block__med-slider-title">speciality a</div>
-             <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
-               neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
-             </div>
-             <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
-           </div>
-           <div class="slider-block__med-slider-item">
-             <div class="slider-block__med-slider-title">speciality a</div>
-             <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
-               neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
-             </div>
-             <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
-           </div>
-           <div class="slider-block__med-slider-item">
-             <div class="slider-block__med-slider-title">speciality a</div>
-             <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
-               neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
-             </div>
-             <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
-           </div>
-           <div class="slider-block__med-slider-item">
-             <div class="slider-block__med-slider-title">speciality a</div>
-             <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
-               neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
-             </div>
-             <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
-           </div>
-         </div>
-        <div class="slider-block__doc-slider-items">
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-1.svg) no-repeat top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+    <main class="main-content  main-content--home-page">
+      <form class="search">
+        <input class="search__input" type="text" name="search" placeholder="What are you searching for?">
+        <button class="search__button  btn" type="submit">Search</button>
+      </form>
+      <div class="slider-block  container">
+        <div class="slider-block__sliders">
+          <h2 class="slider-block__title">What is your medical problem?</h2>
+          <div class="slider-block__med-slider-items">
+            <div class="slider-block__med-slider-item">
+              <div class="slider-block__med-slider-title">speciality a</div>
+              <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
+                neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
+              </div>
+              <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
+            </div>
+            <div class="slider-block__med-slider-item">
+              <div class="slider-block__med-slider-title">speciality a</div>
+              <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
+                neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
+              </div>
+              <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
+            </div>
+            <div class="slider-block__med-slider-item">
+              <div class="slider-block__med-slider-title">speciality a</div>
+              <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
+                neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
+              </div>
+              <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
+            </div>
+            <div class="slider-block__med-slider-item">
+              <div class="slider-block__med-slider-title">speciality a</div>
+              <div class="slider-block__med-slider-text">Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a
+                neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor.
+              </div>
+              <div class="slider-block__med-slider-image" style="background: url(../images/interns.png) no-repeat  center"></div>
+            </div>
           </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+          <h2 class="slider-block__title">Choose your doctor</h2>
+          <div class="slider-block__doc-slider-items">
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-1.svg) no-repeat top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
+            <div class="slider-block__doc-slider-item">
+              <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
+              <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
+            </div>
           </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-2.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-          <div class="slider-block__doc-slider-item">
-            <div class="slider-block__doc-slider-image" style="background: url(../images/doc-3.svg) no-repeat  top"></div>
-            <div class="slider-block__doc-slider-name">lorem ipsum dolor sit amet</div>
-          </div>
-        </div>
-        <a href="#" class="slider-block__doc-link">More</a>
-      </div>
-    </div>
-    <div class="text-block">
-      <div class="text-block__wrapper  container">
-        <div class="text-block__title">random text</div>
-        <div class="text-block__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui ofﬁcia deserunt mollit anim id est laborum. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span></span>
-          Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor. Quisque blandit
-          volutpat ipsum, eget facilisis lacus tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a eleifend nisl eros sed
-          dolor. Quisque feugiat placerat molestie.
+          <a href="#" class="slider-block__doc-link">More</a>
         </div>
       </div>
-    </div>
-    <div class="about-us ">
-      <div class="about-us__wrapper  container">
-        <div class="about-us__title">about us</div>
-        <div class="about-us__text"><span>Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor. Quisque blandit
-          volutpat ipsum, eget facilisis lacus tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a eleifend nisl eros sed
-          dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula
-          placerat felis. Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget tristique porta. Mauris lectus erat, malesuada in
-          tincidunt vel, lacinia vel arcu. Nam massa mauris, volutpat nec lorem eget, congue fermentum nibh. Integer vel pulvinar augue. Cras ac ultricies sem,</span>
+      <div class="text-block">
+        <div class="text-block__wrapper  container">
+          <div class="text-block__title">random text</div>
+          <div class="text-block__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui ofﬁcia deserunt mollit anim id est laborum. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span></span>
+            Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor. Quisque blandit
+            volutpat ipsum, eget facilisis lacus tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a eleifend nisl eros sed
+            dolor. Quisque feugiat placerat molestie.
+          </div>
+        </div>
+      </div>
+      <div class="about-us ">
+        <div class="about-us__wrapper  container">
+          <div class="about-us__title">about us</div>
+          <div class="about-us__text"><span>Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a neque. Duis massa felis, ultrices vel mauris eu, porta congue tortor. Quisque blandit
+            volutpat ipsum, eget facilisis lacus tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a eleifend nisl eros sed
+            dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula
+            placerat felis. Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget tristique porta. Mauris lectus erat, malesuada in
+            tincidunt vel, lacinia vel arcu. Nam massa mauris, volutpat nec lorem eget, congue fermentum nibh. Integer vel pulvinar augue. Cras ac ultricies sem,</span>
 
-          <div class="about-us__image" style="background: url(../images/about-us__image.png) no-repeat right bottom"></div>
+            <div class="about-us__image" style="background: url(../images/about-us__image.png) no-repeat right bottom"></div>
 
-          Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a neque. Duis massa felis,
-          ultrices vel mauris eu, porta congue tortor. Quisque blandit volutpat ipsum, eget facilisis lacus
-          tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a
-          eleifend nisl eros sed dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-          augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-          Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-          tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-          mauris, volutpat nec lorem eget, congue fermentum nibh. Integer vel pulvinar augue. Cras ac
-          ultricies sem, ac venenatis odio. Nulla vitae vehicula mi, sit amet aliquet massa. Maecenas
-          sapien nibh, luctus sed velit quis, feugiat condimentum nulla.
+            Vivamus mi urna, pellentesque at vestibulum sit amet, bibendum a neque. Duis massa felis,
+            ultrices vel mauris eu, porta congue tortor. Quisque blandit volutpat ipsum, eget facilisis lacus
+            tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a
+            eleifend nisl eros sed dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
+            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
+            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
+            mauris, volutpat nec lorem eget, congue fermentum nibh. Integer vel pulvinar augue. Cras ac
+            ultricies sem, ac venenatis odio. Nulla vitae vehicula mi, sit amet aliquet massa. Maecenas
+            sapien nibh, luctus sed velit quis, feugiat condimentum nulla.
+          </div>
+          <a href="#" class="about-us__button  btn">button</a>
         </div>
-        <a href="#" class="about-us__button  btn">button</a>
       </div>
-    </div>
-    <div class="contacts">
-      <div class="contacts__wrapper  container">
-        <div class="contacts__items">
-          <img class="contacts__logo" src="../images/main-logo.svg" width="90" height="60" alt="Барбершоп «Бородинский»">
-          <a class="contacts__item" href="#">Address // 7 Ramat Yam st. Herzliya, Israel</a>
-          <a class="contacts__item" href="tel: +972732723860">Telephone No. // +972-73-272-3860</a>
-          <a  class="contacts__item" href="#">E-Mail // contact@hmcisrael.com</a>
+      <div class="contacts">
+        <div class="contacts__wrapper  container">
+          <div class="contacts__items">
+            <img class="contacts__logo" src="../images/main-logo.svg" width="90" height="60" alt="Барбершоп «Бородинский»">
+            <a class="contacts__item" href="#">Address // 7 Ramat Yam st. Herzliya, Israel</a>
+            <a class="contacts__item" href="tel: +972732723860">Telephone No. // +972-73-272-3860</a>
+            <a  class="contacts__item" href="#">E-Mail // contact@hmcisrael.com</a>
+          </div>
+          <iframe class="contacts__location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.982219825763!2d34.80080041559801!3d32.17775418115705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d489beadc592b%3A0xdac9b0d5528118fc!2zUmFtYXQgWWFtIDcsIEhlcnRzbGl5YSwg0JjQt9GA0LDQuNC70Yw!5e0!3m2!1sru!2sby!4v1540988475467" style="border:0" allowfullscreen></iframe>
         </div>
-        <iframe class="contacts__location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.982219825763!2d34.80080041559801!3d32.17775418115705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d489beadc592b%3A0xdac9b0d5528118fc!2zUmFtYXQgWWFtIDcsIEhlcnRzbGl5YSwg0JjQt9GA0LDQuNC70Yw!5e0!3m2!1sru!2sby!4v1540988475467" style="border:0" allowfullscreen></iframe>
       </div>
-    </div>
+    </main>
     <footer class="footer">
       <div class="footer__wrapper  container">
         <div class="footer__content">

@@ -5,7 +5,6 @@ $('.slider-block__doc-slider-items').slick({
     arrows: true,
     centerMode: true,
     focusOnSelect: true,
-    centerPadding: "20px",
     responsive: [
         {
             breakpoint: 1151,

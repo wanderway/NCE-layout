@@ -1,39 +1,17 @@
 .slider-block {
+  padding: 0 0 50px;
 
-  background: url("../images/main-background.png") repeat-x top;
+  &__title {
+    width: 460px;
+    margin: 0 0 40px -10px;
+    padding: 0 0 0 35px;
 
-  padding: 30px 110px 70px;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 55px;
 
-  &__search {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1180px;
-    padding: 10px 15px;
-    align-items: center;
-    margin: 0 auto 30px;
 
-    background: #A6D7FF;
-  }
-
-  &__input {
-    flex-basis: 88%;
-    padding: 0 0 0 20px;
-    margin: 0 1% 0 0;
-
-    font-size: 25px;
-    line-height: 40px;
-
-    border-radius: 4px;
-    border: 1px solid #999999;
-
-    &::placeholder {
-      color: #3753A4;
-    }
-  }
-
-  &__button {
-    flex-basis: 11%;
+    background: #52C5FF;
   }
 
   &__sliders {
@@ -41,48 +19,16 @@
 
     max-width: 1150px;
     margin: 0 auto;
-    padding: 150px 0 0 0;
+    padding: 40px 0 0 0;
 
     background: rgba(255, 255, 255, .9);
-
-    &:after {
-      position: absolute;
-      left: -10px;
-      top: 40px;
-
-      min-width: 450px;
-      line-height: 50px;
-      padding: 0 0 0 30px;
-
-      font-size: 22px;
-
-      background: #52C5FF;
-
-      content: "What is you medical problem?";
-    }
-
-    &:before {
-      position: absolute;
-      left: -10px;
-      top: 540px;
-
-      min-width: 450px;
-      line-height: 50px;
-      padding: 0 0 0 30px;
-
-      font-size: 22px;
-
-      background: #52C5FF;
-
-      content: "Choose your doctor";
-    }
   }
 
   &__med-slider-items {
     position: relative;
 
     padding: 20px 130px;
-    margin: 0 auto 180px;
+    margin: 0 auto 70px;
     font-size: 12px;
 
     background: #F9A858;
@@ -202,8 +148,8 @@
   &__doc-slider-items {
     position: relative;
 
-    padding: 0 80px;
-    margin: 180px 0 0 0;
+    padding: 0 80px 20px;
+    margin: 70px 0 0 0;
 
     font-size: 13px;
     text-transform: uppercase;
@@ -216,7 +162,7 @@
     &:after {
       position: absolute;
       top: 0;
-      width: 100px;
+      width: 130px;
       height: 100%;
 
       background: #ffffff;
@@ -235,33 +181,33 @@
   }
 
   &__doc-slider-item {
-    position: relative;
+    height: 370px;
 
     display: inline-block;
-    padding: 75px 0 0 0;
-    margin: 0 5px;
 
+    margin: 0 5px;
   }
 
   &__doc-slider-items .slick-current {
+
     background: #F9A858;
-    padding: 45px 0 40px 0;
-    margin: 0 5px;
+
+    transition: 1s;
   }
 
-  .slick-current .slider-block__doc-slider-image {
-    height: 215px;
+  .slick-slide {
+    transition: 1s;
   }
 
   .slick-current .slider-block__doc-slider-name {
-    margin: 20px 0 0 0;
 
-    background: #F9A858;
+    background: transparent;
     color: #000000;
   }
 
   &__doc-slider-image {
-    height: 160px;
+    height: 220px;
+    margin: 75px 0 0 0;
   }
 
   &__doc-slider-name {
@@ -272,6 +218,9 @@
 
     background: #A6D7FF;
     color: #ffffff;
+
+    transition: .5s;
+
   }
 
   &__doc-slider-items .slick-next {

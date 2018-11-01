@@ -1,0 +1,31 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1180px;
+  padding: 10px 15px;
+  align-items: center;
+  margin: 30px auto;
+
+  background: #A6D7FF;
+
+  &__input {
+    flex-basis: 88%;
+    padding: 0 0 0 20px;
+    margin: 0 1% 0 0;
+
+    font-size: 25px;
+    line-height: 40px;
+
+    border-radius: 4px;
+    border: 1px solid #999999;
+
+    &::placeholder {
+      color: #3753A4;
+    }
+  }
+
+  &__button {
+    flex-basis: 11%;
+  }
+}

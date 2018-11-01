@@ -16,7 +16,19 @@ body {
   margin: 0 auto;
 
   font: 0 "Roboto", "Verdana", sans-serif;
+}
 
+.main-content {
+  padding: 100px 0 0 0;
+
+  background: url("../images/main-background.png") repeat-x top;
+}
+
+header {
+  position: fixed;
+
+  width: 100%;
+  z-index: 30;
 }
 
 .container {
@@ -54,7 +66,20 @@ body {
   &:hover {
     background: #52C5FF;
     color: #000000;
+    border: 1px solid #3753A4;
 
     transition: .5s;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

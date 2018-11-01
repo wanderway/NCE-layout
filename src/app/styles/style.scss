@@ -1,14 +1,14 @@
 @import "normalize.scss";
 @import "png-sprite.scss";
-@import "main.scss";
-@import "slogan.scss";
-@import "navigation-block.scss";
-@import "slider-block.scss";
-@import "text-block.scss";
-@import "about-us.scss";
-@import "contacts.scss";
-@import "footer.scss";
-@import "search.scss";
+@import "main";
+@import "slogan";
+@import "navigation-block";
+@import "slider-block";
+@import "text-block";
+@import "about-us";
+@import "contacts";
+@import "footer";
+@import "search";
 
 //Mixins
 @import "mixins/png-sprite.scss";

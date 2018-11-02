@@ -4,6 +4,8 @@
 
   background: #ffffff;
 
+  box-shadow: 0 1px 10px #cacaca;
+
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -26,7 +28,6 @@
 
     list-style: none;
 
-
     &:after {
       position: absolute;
       right: 15px;
@@ -45,13 +46,11 @@
     display: block;
   }
 
-
   &__language {
     position: relative;
 
     display: none;
-    padding:  0 45px;
-
+    padding: 0 45px;
 
     line-height: 30px;
 

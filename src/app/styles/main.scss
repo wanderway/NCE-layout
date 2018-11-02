@@ -26,7 +26,6 @@ body {
 
 .main-content--about-us-page {
   padding-bottom: 75px;
-
 }
 
 header {
@@ -45,8 +44,6 @@ header {
   max-width: 1400px;
   margin: 0 auto;
 }
-
-
 
 .btn {
   display: block;
@@ -87,4 +84,43 @@ header {
 
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.ttl {
+  width: 460px;
+  margin: 0 0 40px -10px;
+  padding: 0 0 0 35px;
+
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 55px;
+
+  background: #52C5FF;
+}
+
+.static {
+  font-size: 16px;
+
+  h2 {
+    margin: 0 0 20px 0;
+
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0 0 40px 0;
+    padding: 0 20px 0 0;
+
+    line-height: 20px;
+    font-weight: lighter;
+
+    color: #000000;
+  }
+
+  picture {
+    width: 35%;
+    height: 230px;
+  }
+
 }

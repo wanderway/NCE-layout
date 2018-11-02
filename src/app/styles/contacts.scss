@@ -38,15 +38,13 @@
   &__location {
     height: 190px;
   }
-}
 
-.contacts-about-us-page {
-  background: #ffffff;
+  &--blue {
+    background: #52C5FF;
 
-  padding: 0;
-
-  .contacts__wrapper {
-    background: #F2F2F2;
-
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
   }
 }

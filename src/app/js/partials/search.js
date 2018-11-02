@@ -1,6 +1,6 @@
-var search = document.querySelector('.search');
-var toggle = document.querySelector('.search__toggle')
-var changingIcon = document.querySelector('.search__changing-icon')
+const search = document.querySelector('.search');
+const toggle = document.querySelector('.search__toggle');
+const changingIcon = document.querySelector('.search__changing-icon');
 
 toggle.addEventListener('click', function () {
     if (search.classList.contains('search--closed')) {

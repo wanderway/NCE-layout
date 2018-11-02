@@ -1,0 +1,86 @@
+.personal-doc-slider {
+  position: relative;
+
+  overflow: hidden;
+
+
+  &__slide {
+    display: inline-block;
+  }
+
+  &__title {
+    margin:  0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0;
+  }
+
+  &__image {
+    flex-basis: 20%;
+
+
+    img {
+      display: block;
+      width: 100px;
+      margin: 50px auto;
+
+      border-radius: 50px;
+
+    }
+  }
+
+  &__text {
+    flex-basis: 80%;
+    font-size: 16px;
+
+    padding: 0 70px 0 0;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 30px;
+    right: calc(50% - 50px);
+
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      margin: 0 20px 0 0;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    button {
+      width: 20px;
+      height: 20px;
+
+      border-radius: 10px;
+      border: none;
+    }
+
+    .slick-active {
+      position: relative;
+
+      &:after {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+
+        width: 10px;
+        height: 10px;
+
+        background: #000000;
+        border-radius: 5px;
+
+        content: "";
+      }
+
+    }
+  }
+}

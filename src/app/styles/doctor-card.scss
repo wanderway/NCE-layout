@@ -1,0 +1,80 @@
+.doctor-card {
+  padding: 20px 0 0 0;
+
+  &__title {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  &__slide {
+
+  }
+
+  &__card-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+    margin: 0 0 20px 0;
+
+    font-size: 16px;
+
+    background: #EFF3FB;
+  }
+
+  &__person-wrapper {
+    margin: 0 2% 0 0;
+    flex-basis: 24%;
+    text-transform: uppercase;
+
+    background: #ffffff;
+  }
+
+  &__name {
+    margin: 10px 0;
+    padding: 0 0 0 20px;
+  }
+
+  &__jobs-title {
+    padding: 0 0 0 20px;
+  }
+
+  &__doc-info-wrapper {
+    flex-basis: 74%;
+  }
+
+  &__image {
+    width: 100%;
+    height: 300px;
+  }
+
+  &__doc-info-text {
+    padding: 10px 0 50px 20px;
+    margin: 0 0 50px 0;
+    background: #ffffff;
+
+    p {
+      margin:  0 0 20px 0;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  &__speciality-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__speciality-items {
+    display: flex;
+  }
+  &__speciality-item {
+    padding: 10px 20px;
+    margin: 0 30px 0 0;
+
+    background: #F9A858;
+    color: #808080;
+  }
+}

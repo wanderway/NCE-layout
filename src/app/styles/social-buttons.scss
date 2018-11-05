@@ -43,9 +43,13 @@
       color: #DC472E;
     }
   }
-  &--text-block {
-    width: 16%;
+
+  &__button--align {
     margin: 0 0 0 auto;
-    padding: 0;
+  }
+
+  &--contacts-page .social-buttons__svg {
+    width: 50px;
+    height: 50px;
   }
 }

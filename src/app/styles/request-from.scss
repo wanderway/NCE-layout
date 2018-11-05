@@ -1,0 +1,77 @@
+.request-form {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+
+  font-size: 14px;
+  color: #808080;
+
+  span {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    width: 60%;
+    margin-bottom: 20px;
+    padding-left: 30px;
+
+    line-height: 45px;
+
+    border: 1px solid #808080;
+  }
+
+  &__textarea {
+    width: 40%;
+    padding: 10px 0 0 20px;
+    margin: 10px 0 20px 0;
+  }
+
+  &__emails-checkbox {
+    position: relative;
+
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 40px;
+
+    line-height: 40px;
+  }
+
+  &__emails-checkbox input[type="checkbox"]{
+    display: none;
+  }
+
+  &__emails-checkbox input[type="checkbox"] + .request-form__checkbox-indicator {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+
+    border: 2px solid #3753A4;
+  }
+
+  &__emails-checkbox input[type="checkbox"]:checked + .request-form__checkbox-indicator::before,
+  &__emails-checkbox input[type="checkbox"]:checked + .request-form__checkbox-indicator::after {
+    position: absolute;
+    top: 8px;
+    left: 1px;
+
+    width: 15px;
+    height: 2px;
+
+    background: #3753A4;
+
+    content: "";
+  }
+
+  &__checkbox-indicator:before {
+    transform: rotate(45deg);
+  }
+  &__checkbox-indicator:after {
+    transform: rotate(-45deg);
+  }
+}

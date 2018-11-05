@@ -2,6 +2,10 @@
   background: url("../images/map__background.png") repeat-x center;
   padding: 30px 0;
 
+  &--no-image {
+    background: #ffffff;
+  }
+
   &__wrapper {
     padding: 45px 45px 45px 50px;
     display: flex;
@@ -46,5 +50,9 @@
       color: #ffffff;
       text-decoration: none;
     }
+  }
+
+  &__wrapper--grey {
+    background: #F2F2F2;
   }
 }

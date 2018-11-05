@@ -1,6 +1,12 @@
 .text-block {
   padding: 35px 90px 75px 45px;
 
+  &--padding {
+    min-height: 270px;
+    padding: 0 40px 0;
+    margin-bottom: 54px;
+  }
+
   &--white-background {
     background: #ffffff;
   }

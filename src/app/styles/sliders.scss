@@ -1,4 +1,4 @@
-.transparent-content-block {
+.sliders {
 
   &__wrapper {
     position: relative;
@@ -7,7 +7,6 @@
     margin: 0 auto;
     padding: 40px 0 0 0;
 
-    background: rgba(255, 255, 255, .9);
   }
 
   &__wrapper--no-padding {
@@ -191,7 +190,7 @@
     transition: 1s;
   }
 
-  .slick-current .transparent-content-block__doc-slider-name {
+  .slick-current .sliders__doc-slider-name {
 
     background: transparent;
     color: #000000;

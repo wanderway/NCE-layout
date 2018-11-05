@@ -1,4 +1,4 @@
-$('.transparent-content-block__med-slider-items').slick({
+$('.sliders__med-slider-items').slick({
     dots: false,
     slidesToShow: 2,
     slidesToScroll: 2,

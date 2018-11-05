@@ -1,8 +1,6 @@
 .personal-doc-slider {
   position: relative;
 
-  padding: 30px 0 0 0;
-
   overflow: hidden;
 
 
@@ -11,13 +9,13 @@
   }
 
   &__title {
-    margin:  0;
+    margin-bottom: 0;
   }
 
   &__wrapper {
     display: flex;
     flex-direction: row;
-    margin: 70px 0;
+    margin: 40px 0 70px 0;
   }
 
   &__image {

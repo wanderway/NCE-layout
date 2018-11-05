@@ -1,17 +1,5 @@
 .sliders {
-
-  &__wrapper {
-    position: relative;
-
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 40px 0 0 0;
-
-  }
-
-  &__wrapper--no-padding {
-    padding: 0;
-  }
+  position: relative;
 
   //home-page sliders
 
@@ -227,7 +215,7 @@
   &__doc-link {
     position: absolute;
     bottom: 5px;
-    right: 110px;
+    right: 135px;
 
     font-size: 12px;
 

@@ -51,9 +51,9 @@
   </div>
   <form class="request-form  container" action="#" method="post">
     <span>Fill out the form to receive treatment information:</span>
-    <input class="request-form__input" type="text" name="full-name" placeholder="Full name(First Name, Surname)">
-    <input class="request-form__input" type="tel" name="telephone" placeholder="Phone">
-    <input class="request-form__input" type="email" name="email" placeholder="Email">
+    <input class="request-form__input" type="text" name="full-name" placeholder="Full name(First Name, Surname)" required>
+    <input class="request-form__input" type="tel" name="telephone" placeholder="Phone" required>
+    <input class="request-form__input" type="email" name="email" placeholder="Email" required>
     <textarea class="request-form__textarea" name="request-textarea"  cols="30" rows="5" placeholder="Comments"></textarea>
     <label class="request-form__emails-checkbox">
       <input type="checkbox" name="remember" checked>
@@ -256,8 +256,6 @@
 <script src="js/libraries.js"></script>
 <script src="js/partials/language-bar.js"></script>
 <script src="js/partials/search.js"></script>
-<script src="js/partials/personal-doc-slider.js"></script>
-
 </body>
 </head>
 </html>

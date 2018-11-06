@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Speciality Home page</title>
+  <title>Stuff page</title>
   <link rel="stylesheet" href="styles/style.css">
   <meta name="viewport" content="width=device-width">
 </head>
@@ -25,7 +25,7 @@
         <li class="navigation-block__navigation-item"><a href="/index.html">home</a></li>
         <li class="navigation-block__navigation-item"><a href="/about-us.html">about us</a></li>
         <li class="navigation-block__navigation-item"><a href="#">articles</a></li>
-        <li class="navigation-block__navigation-item"><a href="/stuff-page.html">staff</a></li>
+        <li class="navigation-block__navigation-item  navigation-block__navigation-item--active"><a href="#">staff</a></li>
         <li class="navigation-block__navigation-item"><a href="#">media</a></li>
         <li class="navigation-block__navigation-item"><a href="#">faq</a></li>
         <li class="navigation-block__navigation-item"><a href="/contacts.html">contacts</a></li>
@@ -33,166 +33,77 @@
     </div>
   </div>
 </header>
-<main class="main-content  main-content--secondary-page-background-1">
+<main class="main-content  main-content--secondary-page-background-none">
   <form class="search  search--closed">
     <input class="search__input" type="text" name="search" placeholder="What are you searching for?">
     <button class="search__button  btn" type="submit">Search</button>
     <div class="search__toggle"><svg class="search__svg"><use class="search__changing-icon" xlink:href="#search-icon"></use></svg></div>
   </form>
   <div class="transparent-block  container">
-    <h2 class="personal-doc-slider__title ttl">Peripheral nerve reconstruction</h2>
-    <div class="personal-doc-slider">
-      <div class="personal-doc-slider__slide">
-        <div class="personal-doc-slider__wrapper">
-          <picture class="personal-doc-slider__image">
-            <img src="../images/secondary-page-doc.png" alt="doc">
-          </picture>
-          <div class="personal-doc-slider__text">Ultrices vel mauris eu, porta congue tortor. Quisque blandit volutpat ipsum, eget facilisis lacus
-            tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a
-            eleifend nisl eros sed dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-            mauris, volutpat nec lorem eget, congue.idunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-            mauris, volutpat nec lorem egetdolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat</div>
+    <div class="doc-profile static">
+      <div class="doc-profile__speciality-items">
+        <div class="doc-profile__speciality-item">speciality</div>
+        <div class="doc-profile__speciality-item">speciality</div>
+        <a class="doc-profile__speciality-link" href="#">All specialities</a>
+      </div>
+      <div class="doc-profile__person-wrapper">
+        <div class="doc-profile__person-image" style="background: url(../images/secondary-page-doc.png) no-repeat left"></div>
+        <div class="doc-profile__links">
+          <a class="doc-profile__link" href="#"><svg class="doc-profile__svg"><use xlink:href="#film-icon"></use></svg>Curruculum Vitae</a>
+          <a class="doc-profile__link" href="#"><svg class="doc-profile__svg"><use xlink:href="#file-icon"></use></svg>Video/Interview</a>
         </div>
       </div>
-      <div class="personal-doc-slider__slide">
-        <div class="personal-doc-slider__wrapper">
-          <picture class="personal-doc-slider__image">
-            <img src="../images/secondary-page-doc.png" alt="doc">
-          </picture>
-          <div class="personal-doc-slider__text">Ultrices vel mauris eu, porta congue tortor. Quisque blandit volutpat ipsum, eget facilisis lacus
-            tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a
-            eleifend nisl eros sed dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-            mauris, volutpat nec lorem eget, congue.idunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-            mauris, volutpat nec lorem egetdolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat</div>
-        </div>
+      <div class="doc-profile__name">name name</div>
+      <div class="doc-profile__jobs-title">jobs title</div>
+      <h2 class="doc-profile__title">Vivamus mi urna:</h2>
+      <p>tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.</p>
+      <h2 class="doc-profile__title">Title</h2>
+      <p>tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.</p>
+      <p>tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.</p>
+      <h2 class="doc-profile__title">Title</h2>
+
+      <p>tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
+        tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.</p>
+      <p>unt metus. Proin dui urna unt metus. Proin dui urnav unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna
+        unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna
+        unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna
+        unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna
+        unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna
+        unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna
+        unt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urnaunt metus. Proin dui urna</p>
+      <div class="social-buttons">
+        <a class="social-buttons__button  social-buttons__button--align" href="#">
+          <svg class="social-buttons__svg  social-buttons__svg--fb"><use xlink:href="#facebook-icon"></use></svg>
+        </a>
+        <a class="social-buttons__button" href="#">
+          <svg class="social-buttons__svg  social-buttons__svg--ggl"><use xlink:href="#google-plus-icon"></use></svg>
+        </a>
+        <a class="social-buttons__button" href="#">
+          <svg class="social-buttons__svg  social-buttons__svg--tw"><use xlink:href="#twitter-icon"></use></svg>
+        </a>
+        <a class="social-buttons__button" href="#">
+          <svg class="social-buttons__svg  social-buttons__svg--ytb"><use xlink:href="#youtube-icon"></use></svg>
+        </a>
       </div>
-      <div class="personal-doc-slider__slide">
-        <div class="personal-doc-slider__wrapper">
-          <picture class="personal-doc-slider__image">
-            <img src="../images/secondary-page-doc.png" alt="doc">
-          </picture>
-          <div class="personal-doc-slider__text">Ultrices vel mauris eu, porta congue tortor. Quisque blandit volutpat ipsum, eget facilisis lacus
-            tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus, a
-            eleifend nisl eros sed dolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-            mauris, volutpat nec lorem eget, congue.idunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-            mauris, volutpat nec lorem egetdolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-            augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-            Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-            tristique porta. Mauris lectus erat</div>
-        </div>
+      <div class="doc-profile__media-items">
+        <div class="doc-profile__media-items-title">video materials</div>
+        <div class="doc-profile__media-items-wrapper">
+          <iframe class="doc-profile__media-item" src="https://www.youtube.com/embed/7q4rUp0HIws" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="doc-profile__media-item" src="https://www.youtube.com/embed/XomTO736YJY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="doc-profile__media-item" src="https://www.youtube.com/embed/fvGaNQDqWcI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="doc-profile__media-item" src="https://www.youtube.com/embed/xqamuVij9bc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
       </div>
     </div>
-    <div class="doctor-card">
-      <h2 class="doctor-card__title">doctors</h2>
-      <ul class="doctor-card__pagination">
-        <li class="doctor-card__pagination-page  doctor-card__pagination-page--active"><a href="#">1</a></li>
-        <li class="doctor-card__pagination-page"><a href="#">2</a></li>
-      </ul>
-      <div class="doctor-card__slider">
-        <div class="doctor-card__slide">
-          <div class="doctor-card__card-wrapper">
-            <div class="doctor-card__person-wrapper">
-              <div class="doctor-card__image"  style="background: url(../images/secondary-page-doc.png)"></div>
-              <div class="doctor-card__name">name name</div>
-              <div class="doctor-card__jobs-title">jobs title</div>
-            </div>
-            <div class="doctor-card__doc-info-wrapper">
-              <div class="doctor-card__doc-info-text">
-                <p>Ultrices vel mauris eu</p>
-                <p>tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus</p>
-                <p>tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-                  Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-                  tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-                  mauris, volutpat nec lorem eget, congue.idunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-                  Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-                  tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-                  mauris, volutpat nec lorem egetdolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-                  augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-                  Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-                  tristique porta. Mauris lectus erat</p>
-              </div>
-              <div class="doctor-card__speciality-wrapper">
-                <div class="doctor-card__speciality-items">
-                  <div class="doctor-card__speciality-item">speciality A</div>
-                  <div class="doctor-card__speciality-item">speciality A</div>
-                </div>
-                  <div class="doctor-card__links">
-                    <a class="doctor-card__link" href="#"><svg class="doctor-card__svg"><use xlink:href="#film-icon"></use></svg>Curruculum Vitae</a>
-                    <a class="doctor-card__link" href="#"><svg class="doctor-card__svg"><use xlink:href="#file-icon"></use></svg>Video/Interview</a>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="doctor-card__card-wrapper">
-            <div class="doctor-card__person-wrapper">
-              <div class="doctor-card__image" style="background: url(../images/secondary-page-doc.png)"></div>
-              <div class="doctor-card__name">name name</div>
-              <div class="doctor-card__jobs-title">jobs title</div>
-            </div>
-            <div class="doctor-card__doc-info-wrapper">
-              <div class="doctor-card__doc-info-text">
-                <p>Ultrices vel mauris eu</p>
-                <p>tincidunt vel. Cras commodo, libero sed rutrum malesuada, lorem neque placerat tellus</p>
-                <p>tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-                  Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-                  tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-                  mauris, volutpat nec lorem eget, congue.idunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-                  Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-                  tristique porta. Mauris lectus erat, malesuada in tincidunt vel, lacinia vel arcu. Nam
-                  mauris, volutpat nec lorem egetdolor. Quisque feugiat placerat molestie. Sed ligula risus, tempor vitae
-                  augue in, tempor tincidunt metus. Proin dui urna, venenatis ut ante ut, vehicula placerat felis.
-                  Aenean molestie mauris sit amet augue vulputate tincidunt. Sed elementum ipsum eget
-                  tristique porta. Mauris lectus erat</p>
-              </div>
-              <div class="doctor-card__speciality-wrapper">
-                <div class="doctor-card__speciality-items">
-                  <div class="doctor-card__speciality-item">speciality A</div>
-                  <div class="doctor-card__speciality-item">speciality A</div>
-                </div>
-                <div class="doctor-card__links">
-                  <a class="doctor-card__link" href="#"><svg class="doctor-card__svg"><use xlink:href="#film-icon"></use></svg>Curruculum Vitae</a>
-                  <a class="doctor-card__link" href="#"><svg class="doctor-card__svg"><use xlink:href="#file-icon"></use></svg>Video/Interview</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
   </div>
 
-  <div class="contacts contacts--blue">
-    <div class="contacts__wrapper contacts--blue  container">
-      <div class="contacts__items">
-        <img class="contacts__logo" src="../images/main-logo.svg" width="90" height="60" alt="Барбершоп «Бородинский»">
-        <a class="contacts__item" href="#">Address // 7 Ramat Yam st. Herzliya, Israel</a>
-        <a class="contacts__item" href="tel: +972732723860">Telephone No. // +972-73-272-3860</a>
-        <a  class="contacts__item" href="#">E-Mail // contact@hmcisrael.com</a>
-      </div>
-      <iframe class="contacts__location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.982219825763!2d34.80080041559801!3d32.17775418115705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d489beadc592b%3A0xdac9b0d5528118fc!2zUmFtYXQgWWFtIDcsIEhlcnRzbGl5YSwg0JjQt9GA0LDQuNC70Yw!5e0!3m2!1sru!2sby!4v1540988475467" style="border:0" allowfullscreen></iframe>
-    </div>
-  </div>
 </main>
 <footer class="footer">
   <div class="footer__wrapper  container">
@@ -362,8 +273,6 @@
 <script src="js/libraries.js"></script>
 <script src="js/partials/language-bar.js"></script>
 <script src="js/partials/search.js"></script>
-<script src="js/partials/personal-doc-slider.js"></script>
-
 </body>
 </head>
 </html>

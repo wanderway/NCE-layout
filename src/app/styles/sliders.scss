@@ -80,8 +80,14 @@
     border: none;
     background: #A6D7FF;
     border-radius: 30px;
+    outline: none;
 
     z-index: 20;
+
+    &:focus {
+      box-shadow: 0 0 5px #3753A4;
+    }
+
   }
 
   .slick-next {

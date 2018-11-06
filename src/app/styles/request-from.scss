@@ -21,6 +21,10 @@
     line-height: 45px;
 
     border: 1px solid #808080;
+
+    &:required {
+      border: 1px solid green;
+    }
   }
 
   &__textarea {

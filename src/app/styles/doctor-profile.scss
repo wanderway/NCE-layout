@@ -1,0 +1,116 @@
+.doc-profile {
+
+  padding: 0 40px 70px 0;
+
+
+  &__speciality-items {
+    display: flex;
+    margin:  0 0 50px 0;
+
+    line-height: 40px;
+  }
+
+  &__speciality-item {
+    position: relative;
+
+    padding: 0 0 0 15px;
+    margin: 0 20px 0 0;
+    flex-basis: 20%;
+
+    text-transform: uppercase;
+
+    color: #5D5D5D;
+    background: #F9A858;
+
+    &:after {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+
+      width: 20px;
+      height: 20px;
+
+      border-radius: 10px;
+      background: #808080;
+      content: "";
+    }
+  }
+
+  &__speciality-link {
+    color: #A6D7FF;
+  }
+
+  &__person-wrapper {
+    width: 30%;
+    float: left;
+    margin: 0 60px 0 0;
+  }
+
+  &__person-image {
+    width: 100%;
+    height: 320px;
+    margin:  0 0 20px 0;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    padding:  0 0 0 15px;
+  }
+
+  &__link {
+    display: flex;
+
+    padding: 0 10px;
+    margin: 0 20px 0 0 ;
+
+    line-height: 30px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #808080;
+
+    background: #F2F2F2;
+  }
+
+  &__svg {
+    width: 20px;
+    height: 20px;
+
+    margin: 5px 10px 0 0;
+
+    fill: currentColor;
+    color: #808080;
+  }
+
+  &__name {
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #4D4D4D;
+  }
+
+  &__jobs-title {
+    margin: 10px 0 50px 0;
+    color: #5D5D5D;
+  }
+
+  h2.doc-profile__title{
+    color: #3753A4;
+    text-transform: none;
+  }
+
+  &__media-items-title {
+    margin:  30px 0 20px 20px;
+    text-transform: uppercase;
+  }
+
+  &__media-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__media-item {
+    width: 24%;
+    height: 200px;
+  }
+}

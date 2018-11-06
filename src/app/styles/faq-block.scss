@@ -1,0 +1,27 @@
+.faq-block {
+  padding: 0 125px 30px 50px;
+
+  &__item-title {
+    margin: 0 0 10px 0;
+
+    font-size: 17px;
+
+    color: #3753A4;
+  }
+
+  &__item {
+    margin: 0 0 50px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: lighter;
+
+      color: #808080;
+    }
+  }
+}
